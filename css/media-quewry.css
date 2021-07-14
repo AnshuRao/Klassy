@@ -1,0 +1,174 @@
+@media only screen and (max-width:999px){
+
+    .carousel .item{
+        max-width: 450px;
+    }
+    
+    .getit .info{
+        bottom: -80px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .dish-name{
+        padding-top: 10px;
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .info p{
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width:980px){
+    html{
+        font-size: 12px;
+    }
+    #menu{
+        width: 65%;
+    }
+    #menu li a{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .left{
+        width: 100%;
+    }
+    .right-carusol{
+        width: 100%;
+    }
+    .chef-text h1 {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .chef-box {
+        width: 85%;
+        margin: 25px auto;
+    }
+    .reservation-details{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .detail-box {
+        width: 93%;
+        margin:25px auto;
+    }
+    .booking-form{
+        width: 75%;
+        margin:25px auto;
+    }
+    .meal-box ul{
+        width: 95%;
+        margin: 0 auto;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    footer img{
+        width: 100px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        position: relative;
+        left: 90px;
+    }
+    
+    footer p{
+        text-align: center;
+    }
+    .booking-form form input[type="text"], .booking-form form input[type="email"], .booking-form form input[type="date"], .booking-form form input[type="tel"], .booking-form form select, .booking-form form input[type="tel"]{
+        width: 95%;
+    }
+}
+
+
+
+
+@media only screen and (max-width:750px){
+    .wrapper-2 #about-us{
+        width:100%;
+        margin-bottom:25px;
+    }
+    .wrapper-2 .about-video-link {
+        width:100%
+    }
+}
+@media only screen and (max-width:690px){
+    #menu{
+        display: none;
+    }
+    #menu1{
+        display: none;
+    }
+    .menu-trigger{
+        display: block;
+    }
+    .wrapper-5 {
+        padding:0;
+    }
+
+}
+
+
+
+@media only screen and (max-width:5000px) and (min-width:689px){
+    #menu1{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .inner{
+        padding: 0 1%;
+    }
+    .wrapper-2{
+        padding-top: 30px;
+    }
+    .wrapper-4 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+    .logo{
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+    .wrapper-6{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .booking-form {
+        width: 98%;
+        
+    }
+    .week-text .select-meal li{
+        margin-left: 15px;
+    }
+    .wrapper-7 {
+        
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+@media only screen and (max-width:470px){
+    .meal-box ul li img{
+        height: 80%;
+}
+}
+@media only screen and (max-width:400px){
+    .meal-box ul li img{
+        height: 60%;
+}
+.getit .info{
+    bottom: -100px;
+    
+}
+.logo{
+    padding-left: 50px;
+}
+}
