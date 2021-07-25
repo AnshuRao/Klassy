@@ -58,16 +58,14 @@ body {
     color: black;
     letter-spacing: 2px;
     text-align: center;
+    
 }
 .current{
-    background-color: tomato !important;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 5px;
+   
     transition: 0.3s ease background-color;
 }
 .current a{
-    color: #fff !important;
+    color: tomato !important;
 }
 
 
